@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app1{
+    width: 60%;
+    height: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border: 2px solid pink;
+}
+.app2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(128, 0, 128);
+}
+.todo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo div{
+    display: flex;
+    gap: 10px;
+}
+.data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.pop{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: rgba(0,0,0,0.879);
+}
+.pop1{
+    width: 380px;
+    height: 170px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+.pop1 .cross{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background: none;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    right: 18px;
+    top: 3px;
+}
